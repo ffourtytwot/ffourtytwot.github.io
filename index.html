@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Profile | AI & Python Specialist</title>
-    <meta name="description" content="Senior Python Developer specializing in AI Agents, Automation, and Real Estate Data Analysis.">
+    <title>ffourtytwot | Python & AI Engineer</title>
+    <meta name="description" content="Portfolio of ffourtytwot. Specialist in Python Automation, Telegram Bots, and Data Scraping.">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1005/1005141.png"> <!-- Можна замяніць на сваё -->
+    <!-- Favicon (Твой аватар з GitHub) -->
+    <link rel="icon" type="image/png" href="https://github.com/ffourtytwot.png">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -26,7 +26,7 @@
                     },
                     colors: {
                         dark: { 900: '#0a0a0a', 800: '#171717', 700: '#262626' },
-                        accent: { 500: '#3b82f6', 600: '#2563eb' } // Blue for trust/tech
+                        accent: { 500: '#3b82f6', 600: '#2563eb' } 
                     }
                 }
             }
@@ -55,9 +55,6 @@
             font-family: 'JetBrains Mono', monospace;
             color: #a3a3a3;
         }
-        .glow-text {
-            text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
-        }
     </style>
 </head>
 <body class="antialiased min-h-screen flex flex-col justify-center py-12 px-4 sm:px-6">
@@ -66,18 +63,22 @@
         
         <!-- HEADER -->
         <header class="mb-12 flex justify-between items-end">
-            <div>
-                <h1 class="text-4xl sm:text-5xl font-bold text-white tracking-tight mb-2">
-                    ffourtytwot <span class="text-accent-500">.</span>
-                </h1>
-                <p class="text-lg text-neutral-400 max-w-lg">
-                    Software Engineer & AI Architect. <br>
-                    Building high-frequency data systems that generate revenue.
-                </p>
+            <div class="flex items-center gap-6">
+                <!-- Avatar -->
+                <img src="https://github.com/ffourtytwot.png" alt="ffourtytwot" class="w-20 h-20 rounded-full border-2 border-neutral-800 shadow-xl">
+                <div>
+                    <h1 class="text-4xl sm:text-5xl font-bold text-white tracking-tight mb-2">
+                        ffourtytwot<span class="text-accent-500">.</span>
+                    </h1>
+                    <p class="text-lg text-neutral-400 max-w-lg">
+                        Software Engineer & AI Architect. <br>
+                        Building high-frequency bots & scraping systems.
+                    </p>
+                </div>
             </div>
             <div class="hidden sm:block">
-                <a href="mailto:your@email.com" class="text-neutral-500 hover:text-white transition text-sm font-mono">
-                    available for commissions <span class="animate-pulse text-green-500">●</span>
+                <a href="https://t.me/ffourtytwot" class="text-neutral-500 hover:text-white transition text-sm font-mono flex items-center gap-2">
+                    <span class="animate-pulse text-green-500">●</span> open for work
                 </a>
             </div>
         </header>
@@ -85,9 +86,8 @@
         <!-- BENTO GRID -->
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
-            <!-- 1. MAIN PROJECT (EstateRadar) - Takes 2x2 space -->
+            <!-- 1. MAIN PROJECT (EstateRadar) -->
             <div class="bento-card col-span-1 md:col-span-2 row-span-2 p-6 flex flex-col justify-between group relative overflow-hidden">
-                <!-- Decorative BG -->
                 <div class="absolute top-0 right-0 w-64 h-64 bg-accent-600/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 group-hover:bg-accent-600/20 transition duration-500"></div>
 
                 <div class="relative z-10">
@@ -99,22 +99,22 @@
                     </div>
                     <h2 class="text-2xl font-bold text-white mb-2">EstateRadar B2B</h2>
                     <p class="text-neutral-400 text-sm mb-6 leading-relaxed">
-                        An autonomous AI agent that monitors the Warsaw real estate market. It processes thousands of listings from OLX & Otodom in real-time, using Gemini AI to identify undervalued assets for investors.
+                        An autonomous AI agent monitoring the Warsaw real estate market. Processes listings from OLX & Otodom in real-time to identify undervalued assets using Gemini AI.
                     </p>
                     <div class="flex flex-wrap gap-2 mb-6">
                         <span class="tech-pill">Python 3.12</span>
                         <span class="tech-pill">Aiogram</span>
                         <span class="tech-pill">Gemini AI</span>
-                        <span class="tech-pill">SQLite/Async</span>
+                        <span class="tech-pill">SQLite</span>
                     </div>
                 </div>
                 
-                <a href="https://ffourtytwot.github.io" target="_blank" class="relative z-10 mt-auto inline-flex items-center gap-2 text-white font-medium hover:text-accent-400 transition">
+                <a href="https://ffourtytwot.github.io/estateradar" target="_blank" class="relative z-10 mt-auto inline-flex items-center gap-2 text-white font-medium hover:text-accent-400 transition">
                     View Project <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                 </a>
             </div>
 
-            <!-- 2. STACK (Tall) -->
+            <!-- 2. STACK -->
             <div class="bento-card col-span-1 row-span-2 p-6 flex flex-col">
                 <h3 class="text-sm font-bold text-neutral-500 uppercase tracking-wider mb-6">Tech Stack</h3>
                 <ul class="space-y-4 flex-1">
@@ -123,71 +123,70 @@
                         <span class="text-neutral-300 font-mono text-sm">Python (Expert)</span>
                     </li>
                     <li class="flex items-center gap-3">
-                        <i class="fa-solid fa-database text-xl text-blue-400"></i>
-                        <span class="text-neutral-300 font-mono text-sm">SQL & NoSQL</span>
+                        <i class="fa-brands fa-js text-xl text-yellow-300"></i>
+                        <span class="text-neutral-300 font-mono text-sm">JavaScript</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-robot text-xl text-purple-500"></i>
+                        <span class="text-neutral-300 font-mono text-sm">Telegram API</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-spider text-xl text-red-500"></i>
+                        <span class="text-neutral-300 font-mono text-sm">Web Scraping</span>
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="fa-brands fa-docker text-xl text-blue-600"></i>
                         <span class="text-neutral-300 font-mono text-sm">Docker/CI</span>
                     </li>
-                    <li class="flex items-center gap-3">
-                        <i class="fa-solid fa-robot text-xl text-purple-500"></i>
-                        <span class="text-neutral-300 font-mono text-sm">LLM Integration</span>
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <i class="fa-brands fa-linux text-xl text-white"></i>
-                        <span class="text-neutral-300 font-mono text-sm">Linux/VPS</span>
-                    </li>
                 </ul>
             </div>
 
-            <!-- 3. PHILOSOPHY (Square) -->
+            <!-- 3. PHILOSOPHY -->
             <div class="bento-card p-6 flex flex-col justify-center">
                 <i class="fa-solid fa-bolt text-3xl text-yellow-400 mb-4"></i>
                 <h3 class="text-lg font-bold text-white mb-2">Efficiency First</h3>
                 <p class="text-neutral-500 text-xs leading-relaxed">
-                    I don't just write code. I engineer systems that save time and maximize profit margins. Speed is a feature.
+                    I engineer systems that save time and maximize profit. From Kufar scrapers to complex AI agents.
                 </p>
             </div>
 
-            <!-- 4. GITHUB STATS (Square) -->
+            <!-- 4. GITHUB STATS -->
             <div class="bento-card p-6 flex flex-col justify-center items-center text-center">
-                <div class="text-4xl font-bold text-white mb-1">100%</div>
-                <div class="text-xs text-neutral-500 font-mono mb-4">Uptime Delivered</div>
-                <a href="https://github.com/[YOUR_USERNAME]" target="_blank" class="text-2xl text-white hover:text-accent-500 transition">
+                <div class="text-4xl font-bold text-white mb-1">100+</div>
+                <div class="text-xs text-neutral-500 font-mono mb-4">Commits / Year</div>
+                <a href="https://github.com/ffourtytwot" target="_blank" class="text-2xl text-white hover:text-accent-500 transition">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </div>
 
-            <!-- 5. SERVICES (Wide) -->
+            <!-- 5. OTHER PROJECTS -->
             <div class="bento-card col-span-1 md:col-span-2 p-6 flex flex-col justify-center">
-                <h3 class="text-sm font-bold text-neutral-500 uppercase tracking-wider mb-4">What I Do</h3>
+                <h3 class="text-sm font-bold text-neutral-500 uppercase tracking-wider mb-4">Other Projects</h3>
                 <div class="grid grid-cols-2 gap-4">
-                    <div>
-                        <h4 class="text-white font-semibold mb-1">Bot Development</h4>
-                        <p class="text-neutral-500 text-xs">Complex Telegram bots with payments & admin panels.</p>
-                    </div>
-                    <div>
-                        <h4 class="text-white font-semibold mb-1">Data Scraping</h4>
-                        <p class="text-neutral-500 text-xs">Undetectable parsers for high-value data extraction.</p>
-                    </div>
+                    <a href="https://github.com/ffourtytwot/kufar-sniper" target="_blank" class="group">
+                        <h4 class="text-white font-semibold mb-1 group-hover:text-accent-500 transition">Kufar Sniper <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1 opacity-0 group-hover:opacity-100"></i></h4>
+                        <p class="text-neutral-500 text-xs">Automated monitoring tool for Kufar.by.</p>
+                    </a>
+                    <a href="https://github.com/ffourtytwot/bsac-schedule" target="_blank" class="group">
+                        <h4 class="text-white font-semibold mb-1 group-hover:text-accent-500 transition">BSAC Schedule <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1 opacity-0 group-hover:opacity-100"></i></h4>
+                        <p class="text-neutral-500 text-xs">Interactive schedule app (JS/HTML).</p>
+                    </a>
                 </div>
             </div>
 
-            <!-- 6. CONTACT (Wide - Call To Action) -->
+            <!-- 6. CONTACT -->
             <div class="bento-card col-span-1 md:col-span-2 p-6 flex items-center justify-between bg-neutral-900 border-neutral-800">
                 <div>
                     <h3 class="text-xl font-bold text-white">Let's build something.</h3>
-                    <p class="text-neutral-500 text-sm">Open for B2B contracts & technical partnership.</p>
+                    <p class="text-neutral-500 text-sm">Available for B2B contracts.</p>
                 </div>
-                <a href="https://t.me/[YOUR_TELEGRAM]" class="px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-neutral-200 transition flex items-center gap-2">
-                    Contact Me <i class="fa-solid fa-arrow-right"></i>
+                <a href="https://t.me/ffourtytwot" class="px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-neutral-200 transition flex items-center gap-2">
+                    Telegram <i class="fa-brands fa-telegram"></i>
                 </a>
             </div>
 
         </div>
 
-        <!-- FOOTER -->
         <footer class="mt-12 text-center text-neutral-600 text-xs font-mono">
             &copy; 2025 ffourtytwot. All systems operational.
         </footer>
